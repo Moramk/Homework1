@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>HOMEWORK ASSIGNMENT</title>
+    <style type="text/css">
+        .auto-style1 {
+            width: 141px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table>
+            <tr>
+                <td>
+                    <h1>Home Page
+                    </h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        <table id="tbl1" runat="server">
+                            <tr>
+                                <td class="auto-style1">
+                                    <h4 style="height: 19px">First JS</h4>
+                                    <button type="button"
+                                        onclick="document.getElementById('demo').innerHTML = Date()">
+                                        Time</button>
+                                    <p id="demo"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
